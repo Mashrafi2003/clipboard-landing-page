@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;600;700&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:wght@400;600;700&family=Public+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Display:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+/*-------------------------------
+
+    Designing Navigation Section And Hero Area 
+
+ ---------------------------------*/
+
+nav {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+
+/* Navigation Logo Positioning and Image Related Stuffs */
+
+nav img {
+  margin-top: -150px;
+  margin-bottom: 50px;
+}
+
+nav p {
+  color: gray;
+  padding-right: 400px;
+  padding-left: 400px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 60px;
+}
+
+nav a,
+.bottom-button a {
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 15px;
+  color: white;
+  margin-right: 5px;
+}
+nav a:first-child,
+.bottom-button a:first-child {
+  background-color: hsl(171, 66%, 44%);
+}
+nav a:last-child,
+.bottom-button a:last-child {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.hero-bottom,
+.clipboard-section,
+.workflow-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.computer-section {
+  display: flex;
+  height: 100vh;
+}
+.computer-section img {
+  margin-left: -30px;
+}
+.computer-text {
+  padding-left: 80px;
+  padding-right: 300px;
+  padding-top: 45px;
+}
+.computer-text p {
+  text-align: left;
+  color: gray;
+}
+.computer-text div {
+  margin-bottom: 30px;
+}
+.mobile-tab-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clipboard-section p {
+  color: gray;
+}
+
+.workflow-section p {
+  color: gray;
+  margin-top: 10px;
+}
+
+.card-main {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+}
+
+.card-main p {
+  color: gray;
+}
+
+.card-main img {
+  margin-bottom: 8px;
+}
+.icon-section {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.bottom-button {
+  width: 25%;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+footer {
+  padding-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  height: 20vh;
+  background-color: rgb(245, 246, 248);
+}
+
+.icon-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-anchor {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: gray;
+}
+.footer-anchor h5:hover {
+  color: hsl(171, 66%, 44%);
+  cursor: pointer;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icons img {
+  margin: 0 10px;
+}
